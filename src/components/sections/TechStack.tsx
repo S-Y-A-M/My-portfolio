@@ -122,7 +122,7 @@ function CategoryCard({ category, index }: CategoryCardProps) {
 
   const itemVariants = {
     hidden: { opacity: 0, y: 10 },
-    visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 120, damping: 12 } },
+    visible: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 120, damping: 12 } },
   };
 
   return (
@@ -135,7 +135,7 @@ function CategoryCard({ category, index }: CategoryCardProps) {
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
-      transition={{ type: "spring", stiffness: 80, damping: 15, delay: index * 0.1 }}
+      transition={{ type: "spring" as const, stiffness: 80, damping: 15, delay: index * 0.1 }}
       style={{
         rotateX: isReducedMotion ? 0 : rotateX,
         rotateY: isReducedMotion ? 0 : rotateY,
