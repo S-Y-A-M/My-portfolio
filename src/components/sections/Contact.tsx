@@ -59,7 +59,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="tel:+550506910210"
+              href="tel:0551546210"
               className="glass-card hover-lift rounded-xl p-4 bg-surface/50 border-white/10 hover:border-primary/25 flex items-center gap-3 group transition-all"
             >
               <div className="p-2 bg-black/40 rounded-lg text-primary border border-white/5 group-hover:border-primary/10 shrink-0">
@@ -68,13 +68,13 @@ export default function Contact() {
               <div className="min-w-0">
                 <span className="text-[10px] text-muted font-mono block leading-none">CALL DIRECT</span>
                 <span className="text-xs font-semibold text-white group-hover:text-primary transition-colors block mt-1 truncate">
-                  550506910210
+                  0551546210
                 </span>
               </div>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/syamkrishnanpk/"
+              href="https://www.linkedin.com/in/syam-krishnan-pk-b78b18264/"
               target="_blank"
               rel="noopener noreferrer"
               className="glass-card hover-lift rounded-xl p-4 bg-surface/50 border-white/10 hover:border-primary/25 flex items-center gap-3 group transition-all"
@@ -110,8 +110,8 @@ export default function Contact() {
 
           {/* Full-width Resume button at bottom */}
           <a
-            href="/resume.pdf"
-            download="Syam_Krishnan_Resume.pdf"
+            href="/Downloads"
+            download="Syam_Krishnan_Software-developer_Resume.pdf"
             className="glass-card hover-lift rounded-xl p-4 bg-surface/50 border-white/10 hover:border-primary/25 flex items-center justify-center gap-3 group transition-all w-full text-center"
           >
             <div className="p-2 bg-black/40 rounded-lg text-primary border border-white/5 group-hover:border-primary/10 shrink-0">
