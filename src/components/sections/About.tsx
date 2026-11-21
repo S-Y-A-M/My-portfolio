@@ -11,7 +11,7 @@ interface StatItem {
 export default function About() {
   const stats: StatItem[] = [
     {
-      value: "1",
+      value: "1 Y 3 mon",
       label: "Year of Experience"
     },
     {

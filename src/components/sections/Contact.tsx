@@ -59,7 +59,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="tel:+916238069690"
+              href="tel:+550506910210"
               className="glass-card hover-lift rounded-xl p-4 bg-surface/50 border-white/10 hover:border-primary/25 flex items-center gap-3 group transition-all"
             >
               <div className="p-2 bg-black/40 rounded-lg text-primary border border-white/5 group-hover:border-primary/10 shrink-0">
@@ -68,7 +68,7 @@ export default function Contact() {
               <div className="min-w-0">
                 <span className="text-[10px] text-muted font-mono block leading-none">CALL DIRECT</span>
                 <span className="text-xs font-semibold text-white group-hover:text-primary transition-colors block mt-1 truncate">
-                  +91 62380 69690
+                  550506910210
                 </span>
               </div>
             </a>

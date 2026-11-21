@@ -30,6 +30,43 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
+      id: "coj",
+      title: "Citizens of Johannesburg (COJ) – Government Project, South Africa",
+      category: "backend",
+      desc: "Developed serverless REST APIs and cloud infrastructure for a South African government platform.",
+      overview: [
+        "Developed and maintained serverless REST APIs using Node.js and AWS Lambda, implementing business logic and backend requirements.",
+        "Integrated API Gateway with Lambda functions and PostgreSQL databases to handle API requests and database operations.",
+        "Implemented and maintained database queries, API integrations, and backend functionality across distributed services.",
+        "Managed infrastructure provisioning and configuration using Terraform and Terragrunt, with GitHub Actions for CI/CD automation.",
+        "Utilized shared AWS Lambda layers for reusable components, including database utilities, logging, and shared logic."
+      ],
+      tech: ["Node.js", "AWS Lambda", "API Gateway", "PostgreSQL", "Terraform", "Terragrunt", "GitHub Actions"],
+      mockup: (
+        <div className="relative w-full h-40 bg-black/40 rounded-lg border border-white/5 overflow-hidden flex flex-col justify-between p-3 select-none">
+          <div className="flex items-center justify-between text-[10px] font-mono text-muted">
+            <span className="flex items-center gap-1"><Server className="h-3 w-3 text-primary animate-pulse" /> API Gateway</span>
+            <span className="text-accent">● COJ GOVERNMENT</span>
+          </div>
+          <div className="flex items-center justify-center gap-2">
+            <div className="text-center rounded border border-white/5 bg-white/5 p-2 flex-1">
+              <span className="text-[9px] text-muted block font-mono">REST API</span>
+              <span className="text-sm font-bold text-white font-mono">Lambda</span>
+            </div>
+            <div className="text-primary animate-pulse font-mono text-xs">→</div>
+            <div className="text-center rounded border border-white/5 bg-white/5 p-2 flex-1">
+              <span className="text-[9px] text-muted block font-mono">Database</span>
+              <span className="text-sm font-bold text-white font-mono">PostgreSQL</span>
+            </div>
+          </div>
+          <div className="flex justify-between items-center text-[9px] font-mono text-muted border-t border-white/5 pt-1.5">
+            <span>Terraform + Terragrunt</span>
+            <span className="text-accent">GitHub Actions</span>
+          </div>
+        </div>
+      )
+    },
+    {
       id: "medusa",
       title: "Multi-Vendor E-commerce Platform",
       category: "backend",
